@@ -1,59 +1,56 @@
+<?php
+if (count(get_included_files()) == 1) header("Location: ../");
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>
-        <?php echo $title; ?>
+        <?= $title ?>
     </title>
     <!-- La feuille de styles "base.css" doit être appelée en premier. -->
-    <link rel="icon" type="image/jpg" href=<?php echo $href_logo; ?> />
-    <link rel="stylesheet" type="text/css" href="./CSS/index.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="./CSS/base.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="./CSS/modele04.css" media="screen" />
-    <script src="https://193.190.65.92/all/jq/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="JS/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/base.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="CSS/modele04.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="CSS/index.css" media="screen" />
+    <script src="/all/jQ/jquery-3.1.1.min.js"></script>
+    <script src="JS/index.js"></script>
 </head>
-<body onload="hide()">
-    <div id="global">
-        <header id="entete">
-            <h1>
-                <img alt=<?php echo $alt_logo; ?> src=<?php echo $href_logo; ?> />
-                <?php echo $site_name; ?>
-            </h1>
-            <menu id="menu" class="menu">
-                <ul>
-                    <li><a href="index.html"><?php echo $index; ?></a></li>
-                    <li><a href="liste.html"><?php echo $userProfil; ?></a></li>
-                    <li><a href="utiliser.html"><?php echo $userInfos; ?></a></li>
-                    <li><a href="licence.html"><?php echo $config; ?></a></li>
-                    <li><a href="credits.html"><?php echo $gestLog; ?></a></li>
-                </ul>
-            </menu>
-        </header>
-        <menu id="sous-menu" class="menu">
+<body>
+<div id="global">
+    <header id="entete">
+        <h1 id="titre">
+            <img id="logo" alt="<?= $logoAlt ?>" src="<?= $logoPath ?>" />
+            <?= $blogName ?>
+        </h1>
+        <nav id="menu" class="menu">
             <ul>
-                <li><a href="index.html"><?php echo $sem01; ?></a></li>
-                <li><a href="liste.html"><?php echo $sem02; ?></a></li>
-                <li><a href="utiliser.html"><?php echo $sem03; ?></a></li>
-                <li><a href="licence.html"><?php echo $sem04; ?></a></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="userProfil.html">Profil</a></li>
+                <li><a href="userInfos.html">Mes infos</a></li>
+                <li><a href="config.html">Configuration</a></li>
+                <li><a href="gestLog.html">Connexion</a></li>
             </ul>
-        </menu><!-- #navigation -->
-        <main id="contenu">
-            <?php echo $contenu; ?>
-        </main><!-- #contenu -->
-        <footer id="copyright">
-            <span id="auteur">
-                <?php echo $auteur; ?>
-            </span>
-            <span> - crédits </span>
-            <span id="credit">
-                Mise en page &copy; 2018
-                <a href="http://www.elephorm.com">Elephorm</a> et
-                <a href="http://www.alsacreations.com">Alsacréations</a>
-            </span>
-
-        </footer>
-    </div><!-- #global -->
+        </nav><!-- #navigation -->
+    </header><!-- #entete -->
+    <aside id="sous-menu" class="menu">
+        <ul>
+            <li><a href="tableau.html">JSON 00</a></li>
+            <li><a href="sem02.html">TP02</a></li>
+            <li><a href="sem03.html">TP03</a></li>
+            <li><a href="sem04.html">TP04</a></li>
+        </ul>
+    </aside><!-- #navigation -->
+    <section id="contenu">
+        <?= $mainContent ?>
+    </section><!-- #contenu -->
+    <footer id="copyright">
+        <span id="auteur"><?= $auteur ?></span> - <span>crédits</span>
+        <span id="credits">
+            Mise en page &copy; 2008
+            <a href="http://www.elephorm.com">Elephorm</a> et
+            <a href="http://www.alsacreations.com">Alsacréations</a>
+        </span>
+    </footer>
+</div><!-- #global -->
 </body>
 </html>
-
