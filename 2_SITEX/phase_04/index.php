@@ -7,7 +7,6 @@
  */
 require_once "INC/dbConnect.inc.php";
 // SESSION
-session_name($sess_name);
 session_start();
 if (!isset($_SESSION['start'])) {
     $_SESSION['start'] = date('YmdHis');
