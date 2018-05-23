@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8e08675-2fb0-4d02-8186-5da66b757685" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2_SITEX/phase_04/INC/config.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2_SITEX/phase_04/INC/db.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,11 +94,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.inc.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2_SITEX/phase_04/INC/config.inc.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="658">
               <caret line="231" column="1" lean-forward="false" selection-start-line="231" selection-start-column="1" selection-end-line="231" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.inc.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2_SITEX/phase_04/INC/db.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="658">
+              <caret line="112" column="1" lean-forward="false" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -158,6 +168,7 @@
         <option value="$PROJECT_DIR$/2_SITEX/phase_04/index.php" />
         <option value="$PROJECT_DIR$/2_SITEX/phase_04/JS/index.js" />
         <option value="$PROJECT_DIR$/2_SITEX/phase_04/INC/config.inc.php" />
+        <option value="$PROJECT_DIR$/2_SITEX/phase_04/INC/db.inc.php" />
       </list>
     </option>
   </component>
@@ -212,6 +223,13 @@
               <item name="devWebPratique2TI" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="2_SITEX" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="phase_04" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="devWebPratique2TI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="devWebPratique2TI" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="2_SITEX" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="phase_04" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="INC" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -383,11 +401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527061064299</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="clone phpStorm">
+      <created>1527061160792</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1527061160792</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34060000" />
+    <option name="totallyTimeSpent" value="34142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -440,14 +465,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_00/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2_SITEX/phase_00/CSS/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -840,6 +857,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
           <caret line="231" column="1" lean-forward="false" selection-start-line="231" selection-start-column="1" selection-end-line="231" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_04/INC/db.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="112" column="1" lean-forward="false" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
           <folding />
         </state>
       </provider>
