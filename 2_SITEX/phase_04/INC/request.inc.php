@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Adrien
- * Date: 24/02/18
- * Time: 17:16
- */
 if (count(get_included_files()) == 1) die("--access denied--");
 require_once 'mesFonctions.inc.php';
 require_once 'db.inc.php';
