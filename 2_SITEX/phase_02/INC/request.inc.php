@@ -11,6 +11,7 @@ function display($txt) {
     if (!isset($toSend['display'])) $toSend['display'] = "";
     $toSend['display'] .= $txt;
 }
+// function gère requete
 function gereRequete($rq) {
     global $toSend;
     switch ($rq) {
