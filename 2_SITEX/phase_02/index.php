@@ -23,4 +23,5 @@ if (isset($_GET['rq'])) {
         die(json_encode($toSend));
     }
 }
+//include layout
 include_once "INC/layout.html.inc.php";
